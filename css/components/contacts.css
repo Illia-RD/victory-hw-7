@@ -1,7 +1,6 @@
-/* .contact-info {
-  display: block;
+.contact-info {
   font-style: normal;
-} */
+}
 .contact-list {
   display: flex;
   gap: 40px;

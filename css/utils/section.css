@@ -1,0 +1,9 @@
+.section {
+  padding: 120px 0;
+}
+.section.advantages {
+  padding-bottom: 0;
+}
+.team-section {
+  background-color: var(--color-cloud);
+}

@@ -1,0 +1,33 @@
+.social-item {
+  /* padding: 12px; */
+  background-color: var(--cta-color);
+  border-radius: 50%;
+  transition: background-color var(--transition-dur-and-func);
+}
+.team-social-item {
+  padding: 12px;
+}
+.footer-social-item {
+  padding: 8px;
+}
+.social-link {
+  display: flex;
+}
+.social-item:hover,
+.social-item:focus {
+  background-color: var(--color-ocean);
+}
+.social-icon {
+  fill: var(--txt-color-dark-theme);
+}
+.social-list {
+  display: flex;
+}
+.team-social-list {
+  gap: 24px;
+  justify-content: center;
+}
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}

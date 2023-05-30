@@ -1,0 +1,46 @@
+.btn {
+  transition: var(--transition-dur-and-func);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--color-iris);
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-ocean);
+}
+.order-button {
+  padding: 16px 32px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-form-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  padding: 8px 24px;
+  outline: transparent;
+}
+
+.filter-button {
+  padding: 12px 24px;
+  color: var(--cta-color);
+  background-color: var(--light-bg-color);
+  border: 1px solid #e7e9fc;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--color-white);
+  background: var(--color-ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+}

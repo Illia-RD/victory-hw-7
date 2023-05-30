@@ -1,0 +1,19 @@
+.footer {
+  padding: 100px 0;
+  background-color: var(--dark-bg-color);
+}
+.footer-text {
+  color: var(--color-cloud);
+  /* width: 264px; */
+}
+.footer-desc {
+  margin-right: 120px;
+}
+.footer-social {
+  margin-right: 80px;
+}
+.footer-soc-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--color-white);
+}

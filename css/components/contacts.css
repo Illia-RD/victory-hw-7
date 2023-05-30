@@ -1,0 +1,23 @@
+/* .contact-info {
+  display: block;
+  font-style: normal;
+} */
+.contact-list {
+  display: flex;
+  gap: 40px;
+  font-family: 'Roboto';
+}
+.contact {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  transition: color var(--transition-dur-and-func);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--color-ocean);
+}

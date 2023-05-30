@@ -1,0 +1,14 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: transform var(--transition-dur-and-func);
+  width: 100%;
+  height: 100%;
+  padding: 40px 32px;
+  color: var(--txt-color-dark-theme);
+  background-color: var(--cta-color);
+
+  color: var(--txt-color-dark-theme);
+}

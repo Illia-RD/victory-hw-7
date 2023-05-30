@@ -44,3 +44,20 @@
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   border: 1px solid transparent;
 }
+.list-filter {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  justify-content: center;
+}
+.form-btn {
+  display: block;
+
+  padding: 16px 65px;
+  margin: 0 auto;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
